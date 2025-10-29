@@ -11,7 +11,7 @@ function App() {
         <Sidebar />
         <div className="main-content">
           <Routes>
-            <Route path="/portfolio" element={<PortfolioPage />} />
+            <Route path="/" element={<PortfolioPage />} />
             <Route path="/chart" element={<ChartPage />} />
           </Routes>
         </div>

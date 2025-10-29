@@ -6,7 +6,7 @@ export default function Sidebar() {
     <div className="sidebar">
       <h2>CapitalMind</h2>
       <nav>
-        <NavLink to="/portfolio" className={({ isActive }) => isActive ? 'active' : ''}>
+        <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''}>
           Portfolio
         </NavLink>
         <NavLink to="/chart" className={({ isActive }) => isActive ? 'active' : ''}>
