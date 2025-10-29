@@ -1,0 +1,51 @@
+.portfolio {
+  max-width: 960px;
+  margin: 0 auto;
+  /* padding: 20px; */
+}
+
+.portfolio h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 60px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.post h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  margin: 0;
+}
+
+.post .date {
+  font-size: 14px;
+  color: #888;
+}
+
+.post p {
+  font-size: 15px;
+  color: #444;
+  margin: 0;
+}
+
+.post a {
+  font-size: 14px;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
